@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<!-- Basic "preprocessor" includes -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!-- The title that goes on the browser tab -->
+	<title>Matt Fidler's Hobbies</title>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: #CCCCCC">
+	<!-- Navigation bar goes here -->
+	<nav class="navbar" style="background-color: #0021A5">
+		<div class="container-fluid">
+			
+			<!--"Brand" Logo-->
+			<div class="navbar-header" style="background-color: #0021A5">
+				<!-- Set up the button for when on a smaller screen -->
+				<button type="button" class="navbar-toggle bg-primary" data-toggle="collapse" data-target="#mainNavBar"> 
+					<span class="icon-bar" style="background-color: #000000"></span>
+					<span class="icon-bar" style="background-color: #000000"></span>  <!-- These 3 bars make the "burger" style button -->
+					<span class="icon-bar" style="background-color: #000000"></span>
+				</button>
+				<a href="#" class="navbar-brand" style="color: #000000">Matt Fidler</a>  <!-- Gives the "brand name" at the top left corner -->
+			</div>
+			
+			<!-- Menu Items -->
+			<div class="collapse navbar-collapse" id="mainNavBar">  <!-- This id is used to tell the navbar header what to replace when collapsing -->
+				<ul class="nav navbar-nav">
+					<!-- The buttons in the nav bar go here -->
+					<li><a href="kmfhome.html" style="color: #000000">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" style="color: #000000" data-toggle="dropdown">About <span class="caret"></span></a>
+							<ul class="dropdown-menu">  <!-- In this tab put a list with school, work, hobbies, etc -->
+								<li><a href="aboutstudies.html" style="color: #000000">Studies</a></li>   
+								<li><a href="aboutcareer.html" style="color: #000000">Career</a></li> 
+								<li><a href="abouthobbies.html" style="color: #000000">Hobbies</a></li> 
+							</ul>
+					</li>    
+					<li><a href="resume.html" style="color: #000000">Resume</a></li>   <!-- Maybe do the block of text thing in early tnb vid -->
+					<li><a href="contact.html" style="color: #000000">Contact</a></li>  <!-- List emails, linkedin, etc -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="mattandkim.jpg" class="img-rounded" width="428" height="474">
+			</div>
+			<div class="col-md-8">
+				<h1 class="text-center">Hi, I'm Matt.</h1>
+				<p> I live in sunny Gainesville, Florida with my amazing wife, Kim, and our cat, Doodums. 
+					I'm currently studying
+					Computer Engineering at the University of Florida. There are many hobbies that I
+					enjoy outside of school. I do bit of everything, really. I enjoy exercising, playing
+					sports with my friends, music (both listening and playing), movies, Netflix (a bit too much), 
+					reading, and playing the occasional computer game. My wife
+					and I love different types of food, and enjoying trying restaurants around town. We're
+					Gator football fans and season ticket holders. I enjoy going to the beach on the weekends
+					whenever I have spare time.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
